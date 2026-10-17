@@ -25,7 +25,10 @@ def gear_path():
 
 GEAR = gear_path()
 TRIANGLE = 'M10.3 4.6a2 2 0 0 1 3.4 0l7 12.1a2 2 0 0 1-1.7 3H5a2 2 0 0 1-1.7-3Z'
-HOUSE = 'M4 10.5L12 4l8 6.5V19a1.5 1.5 0 0 1-1.5 1.5H15v-5.5h-6v5.5H5.5A1.5 1.5 0 0 1 4 19Z'
+# Casa como la de Bootstrap: tejado con aleros, paredes sin puerta y chimenea a la derecha
+HOUSE_ROOF = 'M3 12.5L12 4l9 8.5M16 7.8V4.5h2v5.2'
+HOUSE_WALLS = 'M5.5 10.5v8a1.5 1.5 0 0 0 1.5 1.5h10a1.5 1.5 0 0 0 1.5-1.5v-8'
+HOUSE_BODY = 'M12 5.4l6.5 6.1v7a1.5 1.5 0 0 1-1.5 1.5H7a1.5 1.5 0 0 1-1.5-1.5v-7Z'
 BELL = 'M6 11a6 6 0 0 1 12 0v5l1.5 2.5h-15L6 16Z'
 CHAT = 'M6.5 4h11A2.5 2.5 0 0 1 20 6.5v8a2.5 2.5 0 0 1-2.5 2.5H11l-4.5 3.5V17A2.5 2.5 0 0 1 4 14.5v-8A2.5 2.5 0 0 1 6.5 4Z'
 HEART = 'M12 19.5S4 14.8 4 9.4C4 6.9 5.9 5 8.3 5c1.6 0 2.9.8 3.7 2.1C12.8 5.8 14.1 5 15.7 5 18.1 5 20 6.9 20 9.4c0 5.4-8 10.1-8 10.1Z'
@@ -61,7 +64,7 @@ LINE = {
     'star': p(STAR),
     'moon': p(MOON),
     'sun': '<circle cx="12" cy="12" r="4"/>' + p(SUN_RAYS),
-    'house': p(HOUSE),
+    'house': p(HOUSE_ROOF) + p(HOUSE_WALLS),
     'person': '<circle cx="12" cy="8" r="3.75"/>' + p('M4.75 20a7.25 7.25 0 0 1 14.5 0'),
     'people': '<circle cx="9" cy="8.5" r="3.25"/>' + p('M2.75 19.5a6.25 6.25 0 0 1 12.5 0')
               + '<circle cx="16.5" cy="8.75" r="2.75"/>' + p('M15.5 14a5 5 0 0 1 6 4.9'),
@@ -94,7 +97,7 @@ FILL = {
     'star': [layer(W, p(STAR))],
     'moon': [layer(W, p(MOON))],
     'sun': [layer(W, '<circle cx="12" cy="12" r="4.5"/>' + p(SUN_RAYS))],
-    'house': [layer(W, p(HOUSE))],
+    'house': [layer(W, p(HOUSE_BODY) + p('M16 7.8V4.5h2v5.2Z')), layer(W, p(HOUSE_ROOF), False)],
     'person': [layer(W, '<circle cx="12" cy="8" r="3.75"/>' + p('M4.75 20a7.25 7.25 0 0 1 14.5 0Z'))],
     'people': [layer(W, '<circle cx="16.5" cy="8.75" r="2.75"/>' + p('M15.5 14a5 5 0 0 1 6 4.9H15.5Z')),
                layer(K, '<circle cx="9" cy="8.5" r="3.25"/>' + p('M2.75 19.5a6.25 6.25 0 0 1 12.5 0Z'), True, width=4),

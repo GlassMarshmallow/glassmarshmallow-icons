@@ -1,4 +1,4 @@
-"""Piezas comunes para dibujar los iconos de mallowglass (cuadrícula de 24 × 24, trazo de 1,5 px)."""
+"""Piezas comunes para dibujar los iconos de glassmarshmallow (cuadrícula de 24 × 24, trazo de 1,5 px)."""
 import math
 
 CIRCLE = '<circle cx="12" cy="12" r="8.5"/>'

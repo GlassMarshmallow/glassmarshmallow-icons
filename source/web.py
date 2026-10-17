@@ -1,4 +1,4 @@
-"""Iconos que necesita la web de Mallowglass (barra, documentación y herramientas).
+"""Iconos que necesita la web de GlassMarshmallow (barra, documentación y herramientas).
 
 Cada uno va en la categoría que le da Bootstrap Icons (bootstrap-categories.json).
 """

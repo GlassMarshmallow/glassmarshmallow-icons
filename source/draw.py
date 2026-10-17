@@ -1,4 +1,4 @@
-"""Dibujo de los iconos de mallowglass.
+"""Dibujo de los iconos de glassmarshmallow.
 
 Cuadrícula de 24 × 24, trazo de 1,5 px con extremos y uniones redondeados.
 - Línea: el contorno con stroke="currentColor".
@@ -17,11 +17,12 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 
 import alerts  # noqa: E402
+import app  # noqa: E402
 import arrows  # noqa: E402
 import basic  # noqa: E402
 import web  # noqa: E402
 
-MODULES = [basic, arrows, alerts, web]
+MODULES = [basic, arrows, alerts, web, app]
 
 OUT = HERE.parent / 'icons'
 ROOT = ('<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" '
@@ -29,7 +30,7 @@ ROOT = ('<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox=
 
 bootstrap_categories = json.loads((HERE / 'bootstrap-categories.json').read_text())
 
-# Iconos de Bootstrap que no se hacen en mallowglass (decidido por Sara)
+# Iconos de Bootstrap que no se hacen en glassmarshmallow (decidido por Sara)
 EXCLUDED = {'arrow-through-heart', 'plus-circle-dotted', 'plus-square-dotted'}
 
 line, fill = {}, {}
@@ -59,7 +60,7 @@ for old in OUT.glob('*.svg'):
 for name, body in line.items():
     write(name, body)
 for name, layers in fill.items():
-    mid = f'mgi-{name}-fill'
+    mid = f'gmi-{name}-fill'
     write(f'{name}-fill', f'<defs><mask id="{mid}">{"".join(layers)}</mask></defs>'
           f'<rect width="24" height="24" fill="currentColor" stroke="none" mask="url(#{mid})"/>')
 

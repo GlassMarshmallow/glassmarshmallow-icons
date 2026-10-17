@@ -275,6 +275,11 @@
   "fill": true
  },
  {
+  "name": "book-half",
+  "category": "Real world",
+  "fill": false
+ },
+ {
   "name": "box-arrow-down",
   "category": "Box arrows",
   "fill": false
@@ -425,6 +430,11 @@
   "fill": true
  },
  {
+  "name": "check2",
+  "category": "UI and keyboard",
+  "fill": false
+ },
+ {
   "name": "chevron-bar-contract",
   "category": "Chevrons",
   "fill": false
@@ -540,6 +550,11 @@
   "fill": true
  },
  {
+  "name": "collection",
+  "category": "Media",
+  "fill": false
+ },
+ {
   "name": "dash",
   "category": "Alerts, warnings, and signs",
   "fill": false
@@ -630,9 +645,39 @@
   "fill": true
  },
  {
+  "name": "file-earmark-arrow-up",
+  "category": "Files and folders",
+  "fill": false
+ },
+ {
+  "name": "file-earmark-image",
+  "category": "Files and folders",
+  "fill": false
+ },
+ {
+  "name": "files",
+  "category": "Files and folders",
+  "fill": false
+ },
+ {
   "name": "folder",
   "category": "Files and folders",
   "fill": true
+ },
+ {
+  "name": "folder2-open",
+  "category": "Files and folders",
+  "fill": false
+ },
+ {
+  "name": "fullscreen",
+  "category": "UI and keyboard",
+  "fill": false
+ },
+ {
+  "name": "fullscreen-exit",
+  "category": "UI and keyboard",
+  "fill": false
  },
  {
   "name": "gear",
@@ -658,6 +703,11 @@
   "name": "image",
   "category": "Files and folders",
   "fill": true
+ },
+ {
+  "name": "images",
+  "category": "Files and folders",
+  "fill": false
  },
  {
   "name": "info",
@@ -825,6 +875,16 @@
   "fill": true
  },
  {
+  "name": "stars",
+  "category": "Weather",
+  "fill": false
+ },
+ {
+  "name": "stop",
+  "category": "Media",
+  "fill": true
+ },
+ {
   "name": "sun",
   "category": "Weather",
   "fill": true
@@ -852,6 +912,11 @@
  {
   "name": "upload",
   "category": "Miscellaneous",
+  "fill": false
+ },
+ {
+  "name": "volume-up",
+  "category": "Media",
   "fill": false
  },
  {
