@@ -1,0 +1,3 @@
+# El lenguaje del repositorio en GitHub: los iconos (SVG y CSS), no los scripts de Python que los dibujan
+source/** linguist-detectable=false
+build/** linguist-detectable=false
