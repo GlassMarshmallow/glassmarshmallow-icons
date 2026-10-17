@@ -49,6 +49,14 @@ DB_MID = 'M5 12c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5'
 LINE['database'] = DB_TOP + p(DB_BODY) + p(DB_MID)
 FILL['database'] = [layer(W, DB_TOP + p(DB_BODY + 'c0 1.4-3.1 2.5-7 2.5S5 7.4 5 6Z')), layer(K, p(DB_MID) + p('M5 6c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5'), False)]
 
+# Categorías de Habilidades de la plantilla: servidor (dos discos apilados) y herramientas (llave y destornillador)
+HDD = '<rect x="3.5" y="4.5" width="17" height="6.5" rx="2"/><rect x="3.5" y="13" width="17" height="6.5" rx="2"/>'
+LINE['hdd-stack'] = HDD + p('M7 7.75h.01M9.5 7.75h.01M7 16.25h.01M9.5 16.25h.01')
+LINE['tools'] = (p('M13.5 10.5 5.3 18.7a1.5 1.5 0 0 0 2.1 2.1l8.2-8.2')
+                 + p('M15.6 12.6a4.2 4.2 0 0 0 4.9-5.6l-2.6 2.6-2.3-.5-.5-2.3 2.6-2.6a4.2 4.2 0 0 0-5.6 4.9')
+                 + p('M4 4l6.4 6.4M13.6 13.6l1.6 1.6')
+                 + p('M14.3 16.4l2.1-2.1 3.5 3.5a1.5 1.5 0 0 1-2.1 2.1Z'))
+
 # Cuadrado de «detener»
 STOP = '<rect x="6" y="6" width="12" height="12" rx="2"/>'
 LINE['stop'] = STOP

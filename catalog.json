@@ -705,6 +705,11 @@
   "fill": true
  },
  {
+  "name": "hdd-stack",
+  "category": "Devices",
+  "fill": false
+ },
+ {
   "name": "heart",
   "category": "Shapes",
   "fill": true
@@ -918,6 +923,11 @@
   "name": "telephone",
   "category": "Communications",
   "fill": true
+ },
+ {
+  "name": "tools",
+  "category": "Tools",
+  "fill": false
  },
  {
   "name": "translate",
