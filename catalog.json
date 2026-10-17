@@ -600,6 +600,11 @@
   "fill": false
  },
  {
+  "name": "csharp",
+  "category": "Brand",
+  "fill": false
+ },
+ {
   "name": "css3",
   "category": "Brand",
   "fill": false
