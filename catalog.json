@@ -1,0 +1,892 @@
+[
+ {
+  "name": "arrow-90deg-down",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrow-90deg-left",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrow-90deg-right",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrow-90deg-up",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrow-bar-down",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrow-bar-left",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrow-bar-right",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrow-bar-up",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrow-clockwise",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrow-counterclockwise",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrow-down",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrow-down-circle",
+  "category": "Shape arrows",
+  "fill": true
+ },
+ {
+  "name": "arrow-down-left",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrow-down-left-circle",
+  "category": "Shape arrows",
+  "fill": true
+ },
+ {
+  "name": "arrow-down-left-square",
+  "category": "Shape arrows",
+  "fill": true
+ },
+ {
+  "name": "arrow-down-right",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrow-down-right-circle",
+  "category": "Shape arrows",
+  "fill": true
+ },
+ {
+  "name": "arrow-down-right-square",
+  "category": "Shape arrows",
+  "fill": true
+ },
+ {
+  "name": "arrow-down-short",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrow-down-square",
+  "category": "Shape arrows",
+  "fill": true
+ },
+ {
+  "name": "arrow-down-up",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrow-left",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrow-left-circle",
+  "category": "Shape arrows",
+  "fill": true
+ },
+ {
+  "name": "arrow-left-right",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrow-left-short",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrow-left-square",
+  "category": "Shape arrows",
+  "fill": true
+ },
+ {
+  "name": "arrow-repeat",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrow-return-left",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrow-return-right",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrow-right",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrow-right-circle",
+  "category": "Shape arrows",
+  "fill": true
+ },
+ {
+  "name": "arrow-right-short",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrow-right-square",
+  "category": "Shape arrows",
+  "fill": true
+ },
+ {
+  "name": "arrow-up",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrow-up-circle",
+  "category": "Shape arrows",
+  "fill": true
+ },
+ {
+  "name": "arrow-up-left",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrow-up-left-circle",
+  "category": "Shape arrows",
+  "fill": true
+ },
+ {
+  "name": "arrow-up-left-square",
+  "category": "Shape arrows",
+  "fill": true
+ },
+ {
+  "name": "arrow-up-right",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrow-up-right-circle",
+  "category": "Shape arrows",
+  "fill": true
+ },
+ {
+  "name": "arrow-up-right-square",
+  "category": "Shape arrows",
+  "fill": true
+ },
+ {
+  "name": "arrow-up-short",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrow-up-square",
+  "category": "Shape arrows",
+  "fill": true
+ },
+ {
+  "name": "arrows",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrows-angle-contract",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrows-angle-expand",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrows-collapse",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrows-collapse-vertical",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrows-expand",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrows-expand-vertical",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrows-fullscreen",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrows-move",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "arrows-vertical",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "bell",
+  "category": "Communications",
+  "fill": true
+ },
+ {
+  "name": "book",
+  "category": "Real world",
+  "fill": true
+ },
+ {
+  "name": "box-arrow-down",
+  "category": "Box arrows",
+  "fill": false
+ },
+ {
+  "name": "box-arrow-down-left",
+  "category": "Box arrows",
+  "fill": false
+ },
+ {
+  "name": "box-arrow-down-right",
+  "category": "Box arrows",
+  "fill": false
+ },
+ {
+  "name": "box-arrow-in-down",
+  "category": "Box arrows",
+  "fill": false
+ },
+ {
+  "name": "box-arrow-in-down-left",
+  "category": "Box arrows",
+  "fill": false
+ },
+ {
+  "name": "box-arrow-in-down-right",
+  "category": "Box arrows",
+  "fill": false
+ },
+ {
+  "name": "box-arrow-in-left",
+  "category": "Box arrows",
+  "fill": false
+ },
+ {
+  "name": "box-arrow-in-right",
+  "category": "Box arrows",
+  "fill": false
+ },
+ {
+  "name": "box-arrow-in-up",
+  "category": "Box arrows",
+  "fill": false
+ },
+ {
+  "name": "box-arrow-in-up-left",
+  "category": "Box arrows",
+  "fill": false
+ },
+ {
+  "name": "box-arrow-in-up-right",
+  "category": "Box arrows",
+  "fill": false
+ },
+ {
+  "name": "box-arrow-left",
+  "category": "Box arrows",
+  "fill": false
+ },
+ {
+  "name": "box-arrow-right",
+  "category": "Box arrows",
+  "fill": false
+ },
+ {
+  "name": "box-arrow-up",
+  "category": "Box arrows",
+  "fill": false
+ },
+ {
+  "name": "box-arrow-up-left",
+  "category": "Box arrows",
+  "fill": false
+ },
+ {
+  "name": "box-arrow-up-right",
+  "category": "Box arrows",
+  "fill": false
+ },
+ {
+  "name": "calendar",
+  "category": "Date and time",
+  "fill": true
+ },
+ {
+  "name": "caret-down",
+  "category": "Carets",
+  "fill": true
+ },
+ {
+  "name": "caret-down-square",
+  "category": "Carets",
+  "fill": true
+ },
+ {
+  "name": "caret-left",
+  "category": "Carets",
+  "fill": true
+ },
+ {
+  "name": "caret-left-square",
+  "category": "Carets",
+  "fill": true
+ },
+ {
+  "name": "caret-right",
+  "category": "Carets",
+  "fill": true
+ },
+ {
+  "name": "caret-right-square",
+  "category": "Carets",
+  "fill": true
+ },
+ {
+  "name": "caret-up",
+  "category": "Carets",
+  "fill": true
+ },
+ {
+  "name": "caret-up-square",
+  "category": "Carets",
+  "fill": true
+ },
+ {
+  "name": "chat",
+  "category": "Communications",
+  "fill": true
+ },
+ {
+  "name": "check",
+  "category": "Alerts, warnings, and signs",
+  "fill": false
+ },
+ {
+  "name": "check-circle",
+  "category": "Alerts, warnings, and signs",
+  "fill": true
+ },
+ {
+  "name": "check-lg",
+  "category": "Alerts, warnings, and signs",
+  "fill": false
+ },
+ {
+  "name": "check-square",
+  "category": "Alerts, warnings, and signs",
+  "fill": true
+ },
+ {
+  "name": "chevron-bar-contract",
+  "category": "Chevrons",
+  "fill": false
+ },
+ {
+  "name": "chevron-bar-down",
+  "category": "Chevrons",
+  "fill": false
+ },
+ {
+  "name": "chevron-bar-expand",
+  "category": "Chevrons",
+  "fill": false
+ },
+ {
+  "name": "chevron-bar-left",
+  "category": "Chevrons",
+  "fill": false
+ },
+ {
+  "name": "chevron-bar-right",
+  "category": "Chevrons",
+  "fill": false
+ },
+ {
+  "name": "chevron-bar-up",
+  "category": "Chevrons",
+  "fill": false
+ },
+ {
+  "name": "chevron-compact-down",
+  "category": "Chevrons",
+  "fill": false
+ },
+ {
+  "name": "chevron-compact-left",
+  "category": "Chevrons",
+  "fill": false
+ },
+ {
+  "name": "chevron-compact-right",
+  "category": "Chevrons",
+  "fill": false
+ },
+ {
+  "name": "chevron-compact-up",
+  "category": "Chevrons",
+  "fill": false
+ },
+ {
+  "name": "chevron-contract",
+  "category": "Chevrons",
+  "fill": false
+ },
+ {
+  "name": "chevron-double-down",
+  "category": "Chevrons",
+  "fill": false
+ },
+ {
+  "name": "chevron-double-left",
+  "category": "Chevrons",
+  "fill": false
+ },
+ {
+  "name": "chevron-double-right",
+  "category": "Chevrons",
+  "fill": false
+ },
+ {
+  "name": "chevron-double-up",
+  "category": "Chevrons",
+  "fill": false
+ },
+ {
+  "name": "chevron-down",
+  "category": "Chevrons",
+  "fill": false
+ },
+ {
+  "name": "chevron-expand",
+  "category": "Chevrons",
+  "fill": false
+ },
+ {
+  "name": "chevron-left",
+  "category": "Chevrons",
+  "fill": false
+ },
+ {
+  "name": "chevron-right",
+  "category": "Chevrons",
+  "fill": false
+ },
+ {
+  "name": "chevron-up",
+  "category": "Chevrons",
+  "fill": false
+ },
+ {
+  "name": "circle-half",
+  "category": "Shapes",
+  "fill": false
+ },
+ {
+  "name": "clipboard",
+  "category": "Real world",
+  "fill": true
+ },
+ {
+  "name": "clock",
+  "category": "Miscellaneous",
+  "fill": true
+ },
+ {
+  "name": "dash",
+  "category": "Alerts, warnings, and signs",
+  "fill": false
+ },
+ {
+  "name": "dash-circle",
+  "category": "Alerts, warnings, and signs",
+  "fill": true
+ },
+ {
+  "name": "dash-circle-dotted",
+  "category": "Alerts, warnings, and signs",
+  "fill": false
+ },
+ {
+  "name": "dash-lg",
+  "category": "Alerts, warnings, and signs",
+  "fill": false
+ },
+ {
+  "name": "dash-square",
+  "category": "Alerts, warnings, and signs",
+  "fill": true
+ },
+ {
+  "name": "dash-square-dotted",
+  "category": "Alerts, warnings, and signs",
+  "fill": false
+ },
+ {
+  "name": "download",
+  "category": "Miscellaneous",
+  "fill": false
+ },
+ {
+  "name": "envelope",
+  "category": "Communications",
+  "fill": true
+ },
+ {
+  "name": "exclamation",
+  "category": "Alerts, warnings, and signs",
+  "fill": false
+ },
+ {
+  "name": "exclamation-circle",
+  "category": "Alerts, warnings, and signs",
+  "fill": true
+ },
+ {
+  "name": "exclamation-diamond",
+  "category": "Alerts, warnings, and signs",
+  "fill": true
+ },
+ {
+  "name": "exclamation-lg",
+  "category": "Alerts, warnings, and signs",
+  "fill": false
+ },
+ {
+  "name": "exclamation-octagon",
+  "category": "Alerts, warnings, and signs",
+  "fill": true
+ },
+ {
+  "name": "exclamation-square",
+  "category": "Alerts, warnings, and signs",
+  "fill": true
+ },
+ {
+  "name": "exclamation-triangle",
+  "category": "Alerts, warnings, and signs",
+  "fill": true
+ },
+ {
+  "name": "eye",
+  "category": "Real world",
+  "fill": true
+ },
+ {
+  "name": "eye-slash",
+  "category": "Real world",
+  "fill": true
+ },
+ {
+  "name": "file",
+  "category": "Files and folders",
+  "fill": true
+ },
+ {
+  "name": "folder",
+  "category": "Files and folders",
+  "fill": true
+ },
+ {
+  "name": "gear",
+  "category": "Tools",
+  "fill": true
+ },
+ {
+  "name": "grid",
+  "category": "Layout",
+  "fill": true
+ },
+ {
+  "name": "heart",
+  "category": "Shapes",
+  "fill": true
+ },
+ {
+  "name": "house",
+  "category": "Real world",
+  "fill": true
+ },
+ {
+  "name": "image",
+  "category": "Files and folders",
+  "fill": true
+ },
+ {
+  "name": "info",
+  "category": "Alerts, warnings, and signs",
+  "fill": false
+ },
+ {
+  "name": "info-circle",
+  "category": "Alerts, warnings, and signs",
+  "fill": true
+ },
+ {
+  "name": "info-lg",
+  "category": "Alerts, warnings, and signs",
+  "fill": false
+ },
+ {
+  "name": "info-square",
+  "category": "Alerts, warnings, and signs",
+  "fill": true
+ },
+ {
+  "name": "journal-text",
+  "category": "Files and folders",
+  "fill": false
+ },
+ {
+  "name": "link",
+  "category": "UI and keyboard",
+  "fill": false
+ },
+ {
+  "name": "list",
+  "category": "Typography",
+  "fill": false
+ },
+ {
+  "name": "lock",
+  "category": "Security",
+  "fill": true
+ },
+ {
+  "name": "moon",
+  "category": "Real world",
+  "fill": true
+ },
+ {
+  "name": "moon-stars",
+  "category": "Weather",
+  "fill": true
+ },
+ {
+  "name": "palette",
+  "category": "Graphics",
+  "fill": true
+ },
+ {
+  "name": "pencil",
+  "category": "Tools",
+  "fill": true
+ },
+ {
+  "name": "people",
+  "category": "People",
+  "fill": true
+ },
+ {
+  "name": "person",
+  "category": "People",
+  "fill": true
+ },
+ {
+  "name": "plus",
+  "category": "Alerts, warnings, and signs",
+  "fill": false
+ },
+ {
+  "name": "plus-circle",
+  "category": "Alerts, warnings, and signs",
+  "fill": true
+ },
+ {
+  "name": "plus-lg",
+  "category": "Alerts, warnings, and signs",
+  "fill": false
+ },
+ {
+  "name": "plus-square",
+  "category": "Alerts, warnings, and signs",
+  "fill": true
+ },
+ {
+  "name": "question",
+  "category": "Alerts, warnings, and signs",
+  "fill": false
+ },
+ {
+  "name": "question-circle",
+  "category": "Alerts, warnings, and signs",
+  "fill": true
+ },
+ {
+  "name": "question-diamond",
+  "category": "Alerts, warnings, and signs",
+  "fill": true
+ },
+ {
+  "name": "question-lg",
+  "category": "Alerts, warnings, and signs",
+  "fill": false
+ },
+ {
+  "name": "question-octagon",
+  "category": "Alerts, warnings, and signs",
+  "fill": true
+ },
+ {
+  "name": "question-square",
+  "category": "Alerts, warnings, and signs",
+  "fill": true
+ },
+ {
+  "name": "recycle",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "search",
+  "category": "Communications",
+  "fill": false
+ },
+ {
+  "name": "share",
+  "category": "Communications",
+  "fill": true
+ },
+ {
+  "name": "shuffle",
+  "category": "Arrows",
+  "fill": false
+ },
+ {
+  "name": "slash",
+  "category": "Alerts, warnings, and signs",
+  "fill": false
+ },
+ {
+  "name": "slash-circle",
+  "category": "Alerts, warnings, and signs",
+  "fill": true
+ },
+ {
+  "name": "slash-lg",
+  "category": "Alerts, warnings, and signs",
+  "fill": false
+ },
+ {
+  "name": "slash-square",
+  "category": "Alerts, warnings, and signs",
+  "fill": true
+ },
+ {
+  "name": "star",
+  "category": "Shapes",
+  "fill": true
+ },
+ {
+  "name": "sun",
+  "category": "Weather",
+  "fill": true
+ },
+ {
+  "name": "telephone",
+  "category": "Communications",
+  "fill": true
+ },
+ {
+  "name": "translate",
+  "category": "Communications",
+  "fill": false
+ },
+ {
+  "name": "trash",
+  "category": "UI and keyboard",
+  "fill": true
+ },
+ {
+  "name": "unlock",
+  "category": "Security",
+  "fill": true
+ },
+ {
+  "name": "upload",
+  "category": "Miscellaneous",
+  "fill": false
+ },
+ {
+  "name": "window-stack",
+  "category": "Apps",
+  "fill": false
+ },
+ {
+  "name": "x",
+  "category": "Alerts, warnings, and signs",
+  "fill": false
+ },
+ {
+  "name": "x-circle",
+  "category": "Alerts, warnings, and signs",
+  "fill": true
+ },
+ {
+  "name": "x-diamond",
+  "category": "Alerts, warnings, and signs",
+  "fill": true
+ },
+ {
+  "name": "x-lg",
+  "category": "Alerts, warnings, and signs",
+  "fill": false
+ },
+ {
+  "name": "x-octagon",
+  "category": "Alerts, warnings, and signs",
+  "fill": true
+ },
+ {
+  "name": "x-square",
+  "category": "Alerts, warnings, and signs",
+  "fill": true
+ }
+]

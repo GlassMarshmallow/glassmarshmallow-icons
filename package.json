@@ -1,0 +1,18 @@
+{
+  "name": "mallowglass-icons",
+  "version": "0.1.0",
+  "description": "Line and fill icons for Mallowglass, with the same names as Bootstrap Icons.",
+  "author": "Sara Paez Yamuza",
+  "license": "MIT",
+  "files": [
+    "icons/*.svg",
+    "font/mallowglass-icons.css",
+    "icons.json"
+  ],
+  "style": "font/mallowglass-icons.css",
+  "scripts": {
+    "icons": "python3 source/draw.py",
+    "css": "node build/build-css.mjs",
+    "build": "npm run icons && npm run css"
+  }
+}
