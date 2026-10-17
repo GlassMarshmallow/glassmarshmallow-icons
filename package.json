@@ -1,15 +1,15 @@
 {
-  "name": "mallowglass-icons",
+  "name": "glassmarshmallow-icons",
   "version": "0.1.0",
-  "description": "Line and fill icons for Mallowglass, with the same names as Bootstrap Icons.",
+  "description": "Line and fill icons for GlassMarshmallow, with the same names as Bootstrap Icons.",
   "author": "Sara Paez Yamuza",
   "license": "MIT",
   "files": [
     "icons/*.svg",
-    "font/mallowglass-icons.css",
+    "font/glassmarshmallow-icons.css",
     "icons.json"
   ],
-  "style": "font/mallowglass-icons.css",
+  "style": "font/glassmarshmallow-icons.css",
   "scripts": {
     "icons": "python3 source/draw.py",
     "css": "node build/build-css.mjs",
