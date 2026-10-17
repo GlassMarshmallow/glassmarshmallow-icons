@@ -1,5 +1,25 @@
 [
  {
+  "name": "adobeillustrator",
+  "category": "Brand",
+  "fill": false
+ },
+ {
+  "name": "adobephotoshop",
+  "category": "Brand",
+  "fill": false
+ },
+ {
+  "name": "adobepremierepro",
+  "category": "Brand",
+  "fill": false
+ },
+ {
+  "name": "angular",
+  "category": "Brand",
+  "fill": false
+ },
+ {
   "name": "arrow-90deg-down",
   "category": "Arrows",
   "fill": false
@@ -265,6 +285,11 @@
   "fill": false
  },
  {
+  "name": "astro",
+  "category": "Brand",
+  "fill": false
+ },
+ {
   "name": "badge-cc",
   "category": "Badges",
   "fill": true
@@ -282,6 +307,11 @@
  {
   "name": "book-half",
   "category": "Real world",
+  "fill": false
+ },
+ {
+  "name": "bootstrap",
+  "category": "Brand",
   "fill": false
  },
  {
@@ -545,6 +575,11 @@
   "fill": false
  },
  {
+  "name": "claude",
+  "category": "Brand",
+  "fill": false
+ },
+ {
   "name": "clipboard",
   "category": "Real world",
   "fill": true
@@ -562,6 +597,11 @@
  {
   "name": "collection",
   "category": "Media",
+  "fill": false
+ },
+ {
+  "name": "css3",
+  "category": "Brand",
   "fill": false
  },
  {
@@ -598,6 +638,21 @@
   "name": "database",
   "category": "Devices",
   "fill": true
+ },
+ {
+  "name": "docker",
+  "category": "Brand",
+  "fill": false
+ },
+ {
+  "name": "doctrine",
+  "category": "Brand",
+  "fill": false
+ },
+ {
+  "name": "dotnet",
+  "category": "Brand",
+  "fill": false
  },
  {
   "name": "download",
@@ -655,6 +710,11 @@
   "fill": true
  },
  {
+  "name": "figma",
+  "category": "Brand",
+  "fill": false
+ },
+ {
   "name": "file",
   "category": "Files and folders",
   "fill": true
@@ -700,6 +760,11 @@
   "fill": true
  },
  {
+  "name": "git",
+  "category": "Brand",
+  "fill": false
+ },
+ {
   "name": "github",
   "category": "Brand",
   "fill": false
@@ -723,6 +788,11 @@
   "name": "house",
   "category": "Real world",
   "fill": true
+ },
+ {
+  "name": "html5",
+  "category": "Brand",
+  "fill": false
  },
  {
   "name": "image",
@@ -755,8 +825,18 @@
   "fill": true
  },
  {
+  "name": "javascript",
+  "category": "Brand",
+  "fill": false
+ },
+ {
   "name": "journal-text",
   "category": "Files and folders",
+  "fill": false
+ },
+ {
+  "name": "jsonwebtokens",
+  "category": "Brand",
   "fill": false
  },
  {
@@ -790,6 +870,36 @@
   "fill": true
  },
  {
+  "name": "nodedotjs",
+  "category": "Brand",
+  "fill": false
+ },
+ {
+  "name": "obsidian",
+  "category": "Brand",
+  "fill": false
+ },
+ {
+  "name": "obsstudio",
+  "category": "Brand",
+  "fill": false
+ },
+ {
+  "name": "ollama",
+  "category": "Brand",
+  "fill": false
+ },
+ {
+  "name": "openai",
+  "category": "Brand",
+  "fill": false
+ },
+ {
+  "name": "openjdk",
+  "category": "Brand",
+  "fill": false
+ },
+ {
   "name": "palette",
   "category": "Graphics",
   "fill": true
@@ -813,6 +923,11 @@
   "name": "person",
   "category": "People",
   "fill": true
+ },
+ {
+  "name": "php",
+  "category": "Brand",
+  "fill": false
  },
  {
   "name": "play",
@@ -870,6 +985,16 @@
   "fill": true
  },
  {
+  "name": "react",
+  "category": "Brand",
+  "fill": false
+ },
+ {
+  "name": "reactivex",
+  "category": "Brand",
+  "fill": false
+ },
+ {
   "name": "recycle",
   "category": "Arrows",
   "fill": false
@@ -883,6 +1008,11 @@
   "name": "share",
   "category": "Communications",
   "fill": true
+ },
+ {
+  "name": "shopify",
+  "category": "Brand",
+  "fill": false
  },
  {
   "name": "shuffle",
@@ -930,6 +1060,21 @@
   "fill": true
  },
  {
+  "name": "swagger",
+  "category": "Brand",
+  "fill": false
+ },
+ {
+  "name": "symfony",
+  "category": "Brand",
+  "fill": false
+ },
+ {
+  "name": "tailwindcss",
+  "category": "Brand",
+  "fill": false
+ },
+ {
   "name": "telephone",
   "category": "Communications",
   "fill": true
@@ -950,6 +1095,11 @@
   "fill": true
  },
  {
+  "name": "typescript",
+  "category": "Brand",
+  "fill": false
+ },
+ {
   "name": "unlock",
   "category": "Security",
   "fill": true
@@ -957,6 +1107,11 @@
  {
   "name": "upload",
   "category": "Miscellaneous",
+  "fill": false
+ },
+ {
+  "name": "vitest",
+  "category": "Brand",
   "fill": false
  },
  {
@@ -977,6 +1132,11 @@
  {
   "name": "window-stack",
   "category": "Apps",
+  "fill": false
+ },
+ {
+  "name": "wondersharefilmora",
+  "category": "Brand",
   "fill": false
  },
  {

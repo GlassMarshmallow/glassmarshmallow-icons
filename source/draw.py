@@ -20,9 +20,10 @@ import alerts  # noqa: E402
 import app  # noqa: E402
 import arrows  # noqa: E402
 import basic  # noqa: E402
+import brands  # noqa: E402
 import web  # noqa: E402
 
-MODULES = [basic, arrows, alerts, web, app]
+MODULES = [basic, arrows, alerts, web, app, brands]
 
 OUT = HERE.parent / 'icons'
 ROOT = ('<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" '
@@ -38,7 +39,7 @@ for module in MODULES:
     for name in module.LINE:
         if name in line:
             sys.exit(f'Icono repetido: {name}')
-        if name not in bootstrap_categories:
+        if name not in bootstrap_categories and module is not brands:
             sys.exit(f'{name} no existe en Bootstrap Icons')
         if name in EXCLUDED:
             sys.exit(f'{name} está en la lista de excluidos')
@@ -64,9 +65,9 @@ for name, layers in fill.items():
     write(f'{name}-fill', f'<defs><mask id="{mid}">{"".join(layers)}</mask></defs>'
           f'<rect width="24" height="24" fill="currentColor" stroke="none" mask="url(#{mid})"/>')
 
-catalog = [{'name': n, 'category': bootstrap_categories[n], 'fill': n in fill} for n in sorted(line)]
+catalog = [{'name': n, 'category': 'Brand' if n in brands.LINE else bootstrap_categories[n], 'fill': n in fill} for n in sorted(line)]
 (HERE.parent / 'catalog.json').write_text(json.dumps(catalog, indent=1, ensure_ascii=False) + '\n')
 
-done = len(line)
+done = len(set(line) & set(bootstrap_categories))
 total = len(set(bootstrap_categories) - EXCLUDED)
 print(f'{done} de línea y {len(fill)} de relleno · {done} de {total} nombres de Bootstrap Icons')
