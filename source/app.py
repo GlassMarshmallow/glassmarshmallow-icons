@@ -2,7 +2,7 @@
 
 Cada uno va en la categoría que le da Bootstrap Icons (bootstrap-categories.json).
 """
-from lib import W, p, layer
+from lib import K, W, p, layer
 
 CATEGORY = 'App'
 
@@ -22,6 +22,24 @@ def sparkle(cx, cy, r):
 
 # Altavoz con dos ondas (Escuchar)
 LINE['volume-up'] = p('M4 9.5h3.5L12 5.5v13l-4.5-4H4Z') + p('M15.5 9a4.2 4.2 0 0 1 0 6M18.2 6.5a7.8 7.8 0 0 1 0 11')
+
+# Reproductor de vídeo (GlassMarshmallow): reproducir, pausa, sonido, silencio y subtítulos
+PLAY = 'M8 5.6v12.8a1 1 0 0 0 1.53.85l10.1-6.4a1 1 0 0 0 0-1.7L9.53 4.75A1 1 0 0 0 8 5.6Z'
+LINE['play'] = p(PLAY)
+FILL['play'] = [layer(W, p(PLAY))]
+PAUSE = '<rect x="6.5" y="5" width="3.5" height="14" rx="1"/><rect x="14" y="5" width="3.5" height="14" rx="1"/>'
+LINE['pause'] = PAUSE
+FILL['pause'] = [layer(W, PAUSE)]
+SPEAKER = 'M4 9.5h3.5L12 5.5v13l-4.5-4H4Z'
+WAVES = 'M15.5 9a4.2 4.2 0 0 1 0 6M18.2 6.5a7.8 7.8 0 0 1 0 11'
+FILL['volume-up'] = [layer(W, p(SPEAKER)), layer(W, p(WAVES), False)]
+MUTE = 'M15.5 9.5l5 5M20.5 9.5l-5 5'
+LINE['volume-mute'] = p(SPEAKER) + p(MUTE)
+FILL['volume-mute'] = [layer(W, p(SPEAKER)), layer(W, p(MUTE), False)]
+BADGE = '<rect x="3" y="5.5" width="18" height="13" rx="2.5"/>'
+CC = 'M10.6 10.3a2.3 2.3 0 1 0 0 3.4M17.1 10.3a2.3 2.3 0 1 0 0 3.4'
+LINE['badge-cc'] = BADGE + p(CC)
+FILL['badge-cc'] = [layer(W, BADGE), layer(K, p(CC), False)]
 
 # Cuadrado de «detener»
 STOP = '<rect x="6" y="6" width="12" height="12" rx="2"/>'

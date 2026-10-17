@@ -265,6 +265,11 @@
   "fill": false
  },
  {
+  "name": "badge-cc",
+  "category": "Badges",
+  "fill": true
+ },
+ {
   "name": "bell",
   "category": "Communications",
   "fill": true
@@ -765,6 +770,11 @@
   "fill": true
  },
  {
+  "name": "pause",
+  "category": "Media",
+  "fill": true
+ },
+ {
   "name": "pencil",
   "category": "Tools",
   "fill": true
@@ -777,6 +787,11 @@
  {
   "name": "person",
   "category": "People",
+  "fill": true
+ },
+ {
+  "name": "play",
+  "category": "Media",
   "fill": true
  },
  {
@@ -915,9 +930,14 @@
   "fill": false
  },
  {
+  "name": "volume-mute",
+  "category": "Media",
+  "fill": true
+ },
+ {
   "name": "volume-up",
   "category": "Media",
-  "fill": false
+  "fill": true
  },
  {
   "name": "window-stack",
