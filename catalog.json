@@ -555,6 +555,11 @@
   "fill": true
  },
  {
+  "name": "code-slash",
+  "category": "Typography",
+  "fill": false
+ },
+ {
   "name": "collection",
   "category": "Media",
   "fill": false
@@ -588,6 +593,11 @@
   "name": "dash-square-dotted",
   "category": "Alerts, warnings, and signs",
   "fill": false
+ },
+ {
+  "name": "database",
+  "category": "Devices",
+  "fill": true
  },
  {
   "name": "download",

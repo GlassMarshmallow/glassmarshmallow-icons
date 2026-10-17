@@ -41,6 +41,14 @@ CC = 'M10.6 10.3a2.3 2.3 0 1 0 0 3.4M17.1 10.3a2.3 2.3 0 1 0 0 3.4'
 LINE['badge-cc'] = BADGE + p(CC)
 FILL['badge-cc'] = [layer(W, BADGE), layer(K, p(CC), False)]
 
+# Plantilla de portfolio (franja y tarjetas de tecnologías): código y base de datos
+LINE['code-slash'] = p('M8 7.5 3.5 12 8 16.5M16 7.5l4.5 4.5-4.5 4.5M13.6 5.5l-3.2 13')
+DB_TOP = '<ellipse cx="12" cy="6" rx="7" ry="2.5"/>'
+DB_BODY = 'M5 6v12c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5V6'
+DB_MID = 'M5 12c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5'
+LINE['database'] = DB_TOP + p(DB_BODY) + p(DB_MID)
+FILL['database'] = [layer(W, DB_TOP + p(DB_BODY + 'c0 1.4-3.1 2.5-7 2.5S5 7.4 5 6Z')), layer(K, p(DB_MID) + p('M5 6c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5'), False)]
+
 # Cuadrado de «detener»
 STOP = '<rect x="6" y="6" width="12" height="12" rx="2"/>'
 LINE['stop'] = STOP
