@@ -49,17 +49,20 @@ DB_MID = 'M5 12c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5'
 LINE['database'] = DB_TOP + p(DB_BODY) + p(DB_MID)
 FILL['database'] = [layer(W, DB_TOP + p(DB_BODY + 'c0 1.4-3.1 2.5-7 2.5S5 7.4 5 6Z')), layer(K, p(DB_MID) + p('M5 6c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5'), False)]
 
-# Categorías de Habilidades de la plantilla: servidor (dos discos apilados) y herramientas (llave inglesa)
+# Categorías de Habilidades de la plantilla: servidor (dos discos apilados) y herramientas (llave y destornillador)
 HDD = '<rect x="3.5" y="4.5" width="17" height="6.5" rx="2"/><rect x="3.5" y="13" width="17" height="6.5" rx="2"/>'
 LINE['hdd-stack'] = HDD + p('M7 7.75h.01M9.5 7.75h.01M7 16.25h.01M9.5 16.25h.01')
 # Frontend: ventana del navegador con su barra y tres puntos
 LINE['window'] = ('<rect x="3" y="4.5" width="18" height="15" rx="2.5"/>' + p('M3 9h18')
                   + p('M6 6.75h.01M8.5 6.75h.01M11 6.75h.01'))
-# Llave inglesa de una sola pieza: mango con la punta redonda, cabeza redonda y la boca hacia arriba a la derecha
-LINE['tools'] = ('<g transform="translate(-.35 .4)">'
-                 + p('M4.74 17.14 12.67 9.21A4.2 4.2 0 0 1 17.94 3.55L15.82 5.67 18.33 8.18 20.45 6.06'
-                     'A4.2 4.2 0 0 1 14.79 11.33L6.86 19.26A1.5 1.5 0 0 1 4.74 17.14Z')
-                 + '</g>')
+# Herramientas: llave inglesa y destornillador cruzados. El destornillador va delante y la llave se corta a su
+# alrededor (máscara), para que las líneas no se mezclen
+TOOLS_WRENCH = 'M5.75 19.95L16.07 9.62A3.3 3.3 0 0 0 20.5 5.47L19.37 6.6 17.4 4.63 18.53 3.5A3.3 3.3 0 0 0 14.38 7.93L4.05 18.25A1.2 1.2 0 0 0 5.75 19.95Z'
+TOOLS_HANDLE = 'M9.47 11.73L17.77 20.03A1.6 1.6 0 0 0 20.03 17.77L11.73 9.47A1.6 1.6 0 0 0 9.47 11.73Z'
+LINE['tools'] = ('<defs><mask id="gmi-tools-cut"><rect width="24" height="24" fill="white" stroke="none"/>'
+                 f'<path d="{TOOLS_HANDLE}" fill="black" stroke="black" stroke-width="3.5"/></mask></defs>'
+                 f'<path d="{TOOLS_WRENCH}" mask="url(#gmi-tools-cut)"/>'
+                 + p('M4.4 4.4L9.47 9.47') + p(TOOLS_HANDLE))
 
 # Logos de marcas: la forma oficial, sin redibujar (las marcas no permiten modificar su logo).
 # Trazados de Simple Icons (CC0, https://simpleicons.org). Van rellenos, sin trazo.
