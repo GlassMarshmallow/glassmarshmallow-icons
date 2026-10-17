@@ -55,9 +55,10 @@ LINE['hdd-stack'] = HDD + p('M7 7.75h.01M9.5 7.75h.01M7 16.25h.01M9.5 16.25h.01'
 # Frontend: ventana del navegador con su barra y tres puntos
 LINE['window'] = ('<rect x="3" y="4.5" width="18" height="15" rx="2.5"/>' + p('M3 9h18')
                   + p('M6 6.75h.01M8.5 6.75h.01M11 6.75h.01'))
-LINE['tools'] = ('<g transform="translate(-.6 .6)">'
-                 + p('M13.5 10.5 5.3 18.7a1.5 1.5 0 0 0 2.1 2.1l8.2-8.2')
-                 + p('M15.6 12.6a4.2 4.2 0 0 0 4.9-5.6l-2.6 2.6-2.3-.5-.5-2.3 2.6-2.6a4.2 4.2 0 0 0-5.6 4.9')
+# Llave inglesa de una sola pieza: mango con la punta redonda, cabeza redonda y la boca hacia arriba a la derecha
+LINE['tools'] = ('<g transform="translate(-.35 .4)">'
+                 + p('M4.74 17.14 12.67 9.21A4.2 4.2 0 0 1 17.94 3.55L15.82 5.67 18.33 8.18 20.45 6.06'
+                     'A4.2 4.2 0 0 1 14.79 11.33L6.86 19.26A1.5 1.5 0 0 1 4.74 17.14Z')
                  + '</g>')
 
 # Logos de marcas: la forma oficial, sin redibujar (las marcas no permiten modificar su logo).
