@@ -52,6 +52,9 @@ FILL['database'] = [layer(W, DB_TOP + p(DB_BODY + 'c0 1.4-3.1 2.5-7 2.5S5 7.4 5 
 # Categorías de Habilidades de la plantilla: servidor (dos discos apilados) y herramientas (llave inglesa)
 HDD = '<rect x="3.5" y="4.5" width="17" height="6.5" rx="2"/><rect x="3.5" y="13" width="17" height="6.5" rx="2"/>'
 LINE['hdd-stack'] = HDD + p('M7 7.75h.01M9.5 7.75h.01M7 16.25h.01M9.5 16.25h.01')
+# Frontend: ventana del navegador con su barra y tres puntos
+LINE['window'] = ('<rect x="3" y="4.5" width="18" height="15" rx="2.5"/>' + p('M3 9h18')
+                  + p('M6 6.75h.01M8.5 6.75h.01M11 6.75h.01'))
 LINE['tools'] = ('<g transform="translate(-.6 .6)">'
                  + p('M13.5 10.5 5.3 18.7a1.5 1.5 0 0 0 2.1 2.1l8.2-8.2')
                  + p('M15.6 12.6a4.2 4.2 0 0 0 4.9-5.6l-2.6 2.6-2.3-.5-.5-2.3 2.6-2.6a4.2 4.2 0 0 0-5.6 4.9')

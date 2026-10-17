@@ -970,6 +970,11 @@
   "fill": true
  },
  {
+  "name": "window",
+  "category": "Layout",
+  "fill": false
+ },
+ {
   "name": "window-stack",
   "category": "Apps",
   "fill": false
