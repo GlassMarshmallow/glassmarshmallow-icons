@@ -7,6 +7,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const svgDir = join(root, 'icons');
+const { version } = JSON.parse(readFileSync(join(root, 'package.json'), 'utf8'));
 const names = readdirSync(svgDir).filter((f) => f.endsWith('.svg')).map((f) => f.slice(0, -4)).sort();
 
 const rules = names.map((name) => {
@@ -16,7 +17,7 @@ const rules = names.map((name) => {
 });
 
 const css = `/*!
- * GlassMarshmallow icons v0.1 · Licencia MIT
+ * GlassMarshmallow icons v${version} · Licencia MIT
  * Diseñados por Sara Paez Yamuza. Archivo generado con build/build-css.mjs: no editar a mano.
  */
 .gmi {
