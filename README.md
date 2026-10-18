@@ -1,8 +1,10 @@
 # GlassMarshmallow Icons
 
-Line and fill icons for [GlassMarshmallow](../glassmarshmallow). They use the same names as
+Line and fill icons for [GlassMarshmallow](https://glassmarshmallow.com). They use the same names as
 Bootstrap Icons, with their own design: 24 × 24 grid, 1.5 px stroke and rounded ends.
 They take the text color, so you change them with CSS.
+
+Browse and search them at [glassmarshmallow.com/icons](https://glassmarshmallow.com/icons).
 
 ## Use
 
