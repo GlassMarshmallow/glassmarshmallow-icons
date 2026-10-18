@@ -775,6 +775,11 @@
   "fill": false
  },
  {
+  "name": "glassmarshmallow",
+  "category": "Brand",
+  "fill": false
+ },
+ {
   "name": "grid",
   "category": "Layout",
   "fill": true
@@ -876,6 +881,11 @@
  },
  {
   "name": "nodedotjs",
+  "category": "Brand",
+  "fill": false
+ },
+ {
+  "name": "npm",
   "category": "Brand",
   "fill": false
  },
