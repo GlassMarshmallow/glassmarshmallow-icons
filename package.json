@@ -4,6 +4,20 @@
   "description": "Line and fill icons for GlassMarshmallow, with the same names as Bootstrap Icons.",
   "author": "Sara Paez Yamuza",
   "license": "MIT",
+  "homepage": "https://glassmarshmallow.com/icons",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GlassMarshmallow/glassmarshmallow-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GlassMarshmallow/glassmarshmallow-icons/issues"
+  },
+  "keywords": [
+    "icons",
+    "svg",
+    "icon-font",
+    "glassmarshmallow"
+  ],
   "files": [
     "icons/*.svg",
     "font/glassmarshmallow-icons.css",
@@ -13,6 +27,7 @@
   "scripts": {
     "icons": "python3 source/draw.py",
     "css": "node build/build-css.mjs",
-    "build": "npm run icons && npm run css"
+    "build": "npm run icons && npm run css",
+    "prepublishOnly": "npm run css"
   }
 }
