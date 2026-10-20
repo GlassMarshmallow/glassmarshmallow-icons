@@ -20,6 +20,8 @@ const css = `/*!
  * GlassMarshmallow icons v${version} · Licencia MIT
  * Diseñados por Sara Paez Yamuza. Archivo generado con build/build-css.mjs: no editar a mano.
  */
+/* En la capa de GlassMarshmallow (@layer): el CSS propio, sin capa, gana siempre, y el framework los ajusta como siempre */
+@layer glassmarshmallow {
 .gmi {
   display: inline-block;
   width: 1em;
@@ -31,6 +33,7 @@ const css = `/*!
   mask: var(--gmi-src) no-repeat center / contain;
 }
 ${rules.join('\n')}
+}
 `;
 
 writeFileSync(join(root, 'font', 'glassmarshmallow-icons.css'), css);
