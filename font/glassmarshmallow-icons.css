@@ -1,9 +1,11 @@
 /*!
- * GlassMarshmallow icons v0.3.0 · Licencia MIT
+ * GlassMarshmallow icons v0.4.0 · Licencia MIT
  * Diseñados por Sara Paez Yamuza. Archivo generado con build/build-css.mjs: no editar a mano.
  */
-/* En la capa de GlassMarshmallow (@layer): el CSS propio, sin capa, gana siempre, y el framework los ajusta como siempre */
-@layer glassmarshmallow {
+/* En la subcapa de los iconos de GlassMarshmallow (@layer): el CSS propio, sin capa, gana siempre, y los componentes
+   y las utilidades del framework los ajustan (van en subcapas posteriores). El orden, el mismo que el del framework */
+@layer glassmarshmallow.tokens, glassmarshmallow.base, glassmarshmallow.layout, glassmarshmallow.icons, glassmarshmallow.components, glassmarshmallow.theme, glassmarshmallow.utilities, glassmarshmallow.extra;
+@layer glassmarshmallow.icons {
 .gmi {
   display: inline-block;
   width: 1em;
